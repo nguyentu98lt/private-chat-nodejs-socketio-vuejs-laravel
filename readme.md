@@ -23,13 +23,8 @@ The following are required to function properly.
 
 ##### Getting Started
 
+
 **_Step : 1_**
-
-```
-git clone https://github.com/sagarankoliya/realtime-private-chat-nodejs-socketio-vuejs-laravel.git
-```
-
-**_Step : 2_**
 
 Go to project directory using **Terminal / CMD**
 
@@ -37,7 +32,7 @@ Go to project directory using **Terminal / CMD**
 composer install
 ```
 
-**_Step : 3_**
+**_Step : 2_**
 
 In project directory find **_.env.example_** and rename to **_.env_**
 
@@ -64,7 +59,7 @@ Also add below line in your .env
 WS_URL=http://localhost:3000/
 ```
 
-**_Step : 4_**
+**_Step : 3_**
 
 Run Migration & Seeder
 
@@ -74,7 +69,7 @@ php artisan migrate
 php artisan db:seed --class=UserTableSeeder
 ```
 
-**_Step : 5_**
+**_Step : 4_**
 
 Go to project directory using **Terminal / CMD**
 
@@ -86,7 +81,7 @@ install node dependencies
 npm install
 ```
 
-**_Step : 6_**
+**_Step : 5_**
 
 In **nodejs** directory open **config/dev.json** file
 
@@ -102,7 +97,7 @@ below database configuration is same as above.
 "database": "your db name"
 ```
 
-**_Step : 7_**
+**_Step : 6_**
 
 **Start Node JS Chat Server**
 
@@ -136,6 +131,3 @@ Open http://127.0.0.1:8000 url in multipal browser
 
 #### After login you can see all users in right sidebar click anyone user and start private chatting.
 
-### Thats it.
-
-Feel free to contact me if you have any query. (^_^)
